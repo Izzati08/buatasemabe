@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""   # kosongkan kalau proyek statis, isi "npm run build" kalau pakai framework
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.koperasi.example.com/:splat"
+  status = 200
+  force = true
